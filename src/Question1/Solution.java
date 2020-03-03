@@ -17,9 +17,9 @@ public class Solution {
         所以返回 [0, 1]
     */
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5,6};
-        int target = 10;
-//        twoSum(nums,target);
+        int[] nums = {2,7,11,15};
+        int target = 13;
+        twoSum(nums,target);
         twoSum2(nums,target);
     }
 
@@ -32,6 +32,7 @@ public class Solution {
                     if(nums[i]+nums[j] == target && i != j){
                         returns[0] = i;
                         returns[1] = j;
+                        System.out.println("twoSum == "+returns[0]+","+returns[1]);
                         break outer;
                     }
                 }
@@ -49,7 +50,7 @@ public class Solution {
                 if(null != map.get(nums[i])){
                     returns[0] = i;
                     returns[1] = map.get(nums[i]);
-                    System.out.println(returns[0]+","+returns[1]);
+                    System.out.println("twoSum2 == "+returns[0]+","+returns[1]);
                     break;
                 }
 
