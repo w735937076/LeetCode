@@ -22,9 +22,7 @@ public class Solution {
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
 
-
-        System.out.println(addTwoNumbers(l1,l2));
-
+        addTwoNumbers(l1,l2);
     }
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if(l1 == null && l2 == null){
@@ -76,7 +74,7 @@ public class Solution {
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
- }
+    }
 
 
 }
