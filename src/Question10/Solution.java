@@ -6,8 +6,8 @@ package Question10;
  */
 public class Solution {
     public static void main(String[] args) {
-        String s = "";
-        String p = null;
+        String s = "adnaaasf";
+        String p = "a.nd*a.*";
         System.out.println(isMatch(s,p));
     }
 
