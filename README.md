@@ -22,4 +22,5 @@ LeetCode Practice
 - Question 19：删除链表的倒数第N个节点
 - Question 20：有效的括号
 - Question 21：合并两个有序链表
+- Question 21：括号生成
 
