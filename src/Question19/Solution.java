@@ -1,5 +1,7 @@
 package Question19;
 
+import common.ListNode;
+
 /**
  * @Author: WZL
  * @Date: 2020/3/13 16:08
