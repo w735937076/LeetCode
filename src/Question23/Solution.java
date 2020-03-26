@@ -63,7 +63,7 @@ public class Solution {
         return merge(lists, 0, lists.length - 1);
     }
 
-    private static ListNode merge(ListNode[] lists, int left, int right) {
+    public static ListNode merge(ListNode[] lists, int left, int right) {
         if (left == right) return lists[left];
         int mid = left + (right - left) / 2;
         ListNode l1 = merge(lists, left, mid);
