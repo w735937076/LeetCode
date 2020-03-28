@@ -30,13 +30,9 @@ public class Solution {
            i++;
         }
 
-//        printListNode(l1,"l1 == ");
-//        printListNode(l2,"l2 == ");
-//        printListNode(l3,"l3 == ");
-
         ListNode[] lists = {l1,l2,l3};
 
-        printListNode(mergeKLists2(lists),"循环合并：");
+//        printListNode(mergeKLists(lists),"循环合并：");
         printListNode(mergeKLists2(lists),"分治法：");
     }
 
