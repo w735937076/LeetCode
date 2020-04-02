@@ -25,4 +25,5 @@ LeetCode Practice
 - Question 22：括号生成
 - Question 23：合并K个排序链表
 - Question 24：两两交换链表中的节点
+- Question 32：最长有效括号
 
