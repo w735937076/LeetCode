@@ -6,7 +6,7 @@ package Question27;
  */
 public class Solution {
     public static void main(String[] args) {
-        int[] nums = {1,2,2,4,6,8,2,0};
+        int[] nums = {1,1,1,4,6,8,4,2};
         int val = 2;
         System.out.println(removeElement(nums,val));
     }
@@ -18,11 +18,13 @@ public class Solution {
 
         int index = 0;
         for(int num : nums){
-           if(num == val){
-               continue;
-           }
-
-           nums[index ++] = num;
+            if(num == val){
+                continue;
+            }else if(num == nums[index]){
+                index ++;
+            }else{
+                nums[index ++] = num;
+            }
         }
 
         return index;
