@@ -25,5 +25,10 @@ LeetCode Practice
 - Question 22：括号生成
 - Question 23：合并K个排序链表
 - Question 24：两两交换链表中的节点
+- Question 25：K 个一组翻转链表
+- Question 26：删除排序数组中的重复项
+- Question 27：移除元素
+- Question 28：实现 strStr()
+- Question 29：两数相除
 - Question 32：最长有效括号
 
